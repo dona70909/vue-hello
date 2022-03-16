@@ -46,7 +46,7 @@
                 <div class="col-12">
                     <label for="my-input-image">Inserisci link image</label>
                     <input  v-model="linkImageInput" id="my-input-image" type="text">
-                    <button @click="getImage()"  class="btn btn-danger">Upload image</button>
+                    <button @click="getImage" class="btn btn-danger">Upload image</button>
                     <img :class="myImgDisplay" :src="linkImageInput" alt="image">
                 </div>
             </div>
