@@ -12,6 +12,8 @@ const app = new Vue(
         methods: {
             getImage: function(){
                 this.myImgDisplay="d-block";
+                console.log("click");
+                console.log(this.linkImageInput);
                 return this.linkImageInput;
             }
         }
