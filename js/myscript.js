@@ -6,14 +6,14 @@ const app = new Vue(
             welcomeMsg: 'Hello Vue.js',
             imageUrl:'https://picsum.photos/200',
             linkImageInput: "",
+            myImgDisplay:"d-none",
         },
 
         methods: {
-
-            getImage: function() {
-                return this.linkImageInput;
+            getImage: function(){
+                this.myImgDisplay="d-block";
+                return this.linkImageInput;;
             }
-        },
-
-    }
+        }
+    }       
 );
