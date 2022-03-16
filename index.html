@@ -37,7 +37,10 @@
             <div class="row">
                 <div class="col-12">
                     <h1>{{welcomeMsg}}</h1>
-                    <input v-model="welcomeMsg" type="text">
+                    <input class="mb-2" v-model="welcomeMsg" type="text">
+                    <div>
+                        <img :src="imageUrl" alt="">
+                    </div>
                 </div>
             </div>
         </section>
