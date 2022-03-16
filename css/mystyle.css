@@ -1,5 +1,5 @@
-.my-image{
-    background-image: url("https://picsum.photos/200");
+header{
+    background-color: rgb(226, 226, 226);
 }
 .bg-green{
     background-color: rgb(132, 201, 132);
@@ -13,6 +13,11 @@
 .bg-blue{
     background-color: rgb(132, 184, 233);
 }
+
+.my-image{
+    background-image: url("https://picsum.photos/200");
+}
+
 .my-container-img{
     width: 500px !important;;
     height: 500px !important;

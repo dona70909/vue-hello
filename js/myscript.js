@@ -12,7 +12,7 @@ const app = new Vue(
         methods: {
             getImage: function(){
                 this.myImgDisplay="d-block";
-                return this.linkImageInput;;
+                return this.linkImageInput;
             }
         }
     }       
